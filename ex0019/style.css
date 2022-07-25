@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(207, 118, 191);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: normal;
+}
+@font-face {
+    font-family: 'Batman';
+    src: url('fonts/OldLondon.ttf') format('truetype'), url('fonts/OldLondonAlternate.ttf') format('truetyp'), url('fonts/Olondon_.otf') format('opentype'), url('fonts/Olondona.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    font-family: 'Batman', Arial, Helvetica, sans-serif;
+    color: rgb(96, 96, 188);
+    background-color: black;
+    font-size: 5em;
+    text-align: center;
+}
+h2{
+    color: rgb(75, 75, 138);
+    font-size: 3em;
+}
+h3.basico{
+    color:rgb(103, 194, 123) ;
+    font-size: 2em;
+}
+h3.intermediario{
+    color:rgb(194, 185, 103) ;
+    font-size: 2em;
+}
+
+h3.avançado{
+    color:rgb(194, 109, 103) ;
+    font-size: 2em;
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
+.batman{
+    font-family: 'batman',Arial, Helvetica, sans-serif;
+    font-size: 4em;
+}

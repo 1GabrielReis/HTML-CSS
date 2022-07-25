@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        @font-face {
+            font-family: 'Batman';
+            src: url('fonts/OldLondon.ttf') format('truetype'), url('fonts/OldLondonAlternate.ttf') format('truetyp'), url('fonts/Olondon_.otf') format('opentype'), url('fonts/Olondona.otf') format('opentype');
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div:hover > p{ 
+            /* quando o mouse estiver em cima da tag dive a tag p sera visivel */
+            display: block;
+            font-family: 'Batman',Arial, Helvetica, sans-serif;
+            font-size: 5em;
+            text-align: center;
+            color: brown;
+            background-color: black;
+        }
+        div > p{ /* a tag p dentro de div estara invisivel */
+            display: none;
+
+        }
+        div:hover{ 
+             color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div> 
+        Passe o mouse aqui
+        <p>EU SOU O BATMAN!</p>
+    </div>
+    <p>Fim do exemplo</p>
+    
+</body>
+</html>

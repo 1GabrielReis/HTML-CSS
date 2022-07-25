@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: rgb(39, 157, 157);
+            margin: 0px;
+        }
+        header {
+            background-color: rgb(142, 117, 165);
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(101, 62, 138);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px black;
+        }
+        nav > a {
+            text-decoration: none;
+            color:azure;
+            font-weight: bold;
+            margin: 3px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+
+        }
+        main {
+            background-color: rgb(142, 117, 165);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.342);
+        }
+        article {
+            background-color: rgb(151, 188, 59);
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(142, 117, 165);;
+        }
+        footer {
+            background-color: black;
+            color: beige;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0%;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: black;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>  <!--Cabeçario-->
+        <h1>Meu sitei </h1>
+        <nav>
+            <a href="#">Link1</a>
+            <a href="#">Link2</a>
+            <a href="#">Link3</a>
+            <a href="#">Link4</a>
+            <a href="#">Link5</a>
+
+        </nav>
+
+    </header>
+    <main> <!--conteu do principal -->
+        <section id="Assunto"> <!--seção-->
+            <p>Esporte  POlitica do abc  tecnologia </p>
+
+        </section>
+        <section id="noticia"> <!--seção-->
+            <article> <!--artigo-->
+                <h2>Guerra da tonias </h2>
+                <p>A Batalha das Toninhas foi um evento envolvendo a <br> Marinha do Brasil ao largo de Gibraltar, em <br> novembro de 1918, ao final da Primeira Guerra Mundial. <br> Pensando ter abordado um submarino do Império <br> Alemão, a marinha brasileira atacou e dizimou um <br> bando de toninhas.</p>
+                <aside> 
+                    <p>George amado integra</p>
+                </aside> <!-- artigo a parte-->
+            </article>
+            <article> <!--artigo-->
+                
+            </article>
+
+        </section>
+
+    </main>
+    <footer> <!--Rodape-->
+        <p> Desenvolvido por  um grande idiota! </p>
+
+    </footer>
+    <div id="bola">
+
+    </div>
+
+    
+</body>
+</html>

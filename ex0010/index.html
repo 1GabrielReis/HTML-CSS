@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Delta.ico" type="image/x-icon">
+    <title>trabalhando com link</title>
+</head>
+<body>
+    <h1>usando  links externos</h1>
+    <hr>
+    <p> A acessar a link externos, é  necessario usa a  tag <strong> &lt; A &gt;</strong></p>
+    <p> A tag para link externos é <strong> &lt; a &gt;</strong><br>
+    os link vão esta na palavra(s) desccrista, exemblo:</p>
+    <p> Eu quero acessa minha plataforma da <a href="https://www.netflix.com/browse" target="_blank" rel="external">netflix</a>.</p> 
+    <p>Eu quero acessa meu canal do <a href="https://www.youtube.com/" target="_blank" rel="external">youtube</a>.</p>
+    <p>Para aceesa o materia no github do <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank" rel="external">Curso em video</a></p>
+    <p>Para aceesa os exercercios no github do <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">Cursos em video</a></p>
+    <hr>
+    <h2>links internos </h2>
+    <h3>Primeiro caso</h3>
+    <p>ultilizar também a tag <strong> &lt; A &gt;</strong> para aceessa link onternos.</p>
+    <p>
+        Primera pagina do site, você também pde acessar a <a href="pag2.html" rel="next">Segunda pagina web</a>.
+    </p>
+    <h3>Segundo caso</h3>
+    <p>
+        Também é possivel acessa a <a href="Interno/pag3.html" rel="next">Terceira pagina</a>.
+    </p>
+    <p> 
+        Tag para muda de pagina com no mesmo arquivo: <br>
+        <code> <strong> &lt; A </strong> href="pag2.html" rel="netx" <strong> &gt; &lt; /A &gt;</strong> </code>
+        <br>
+        Tag para muda de pagina em um arquivo interno: <br>
+        <code> <strong> &lt; A </strong> href="interno/pag3.html" rel="netx" <strong> &gt; &lt; /A &gt;</strong> </code><br>
+        interno/: nome do arquivo dentro do arquivo principal. <br>
+        pag3.html: nome do site. 
+    </p>
+    <hr>
+    <h1>link para download</h1>
+    <ul>
+        <li><a href="Currículo 1/Currículo linkedin.pdf" download="Currículo linkedin.pdf" type="application/pdf" target="_blank" rel="external">Baixa curriculo</a></li>
+        <li><a href="Currículo 1/Currículo linkedin.zip"download="Currículo linkedin.zip" type="application/zip">curriculo compactado em ZIP</a></li>
+    </ul>
+    <h2>Tags para realizar download</h2>
+    <p>
+        Referente ao primeiro caso em pdf: <br>
+        <code>
+             <strong> &lt; A</strong> href="Currículo 1/Currículo linkedin.pdf" download="Currículo linkedin.pdf" type="application/pdf" target="_blank" rel="external" <strong> &gt;</strong> 
+        </code> <br>
+        discrição: <br>
+        <em>target="_blank" rel="external"</em>: serve para abrir outra aba do nevegador quando fazer o download
+    </p>
+    <p>
+        Referente ao segundo caso em ZIP: <br>
+        <code> 
+            <strong> &lt; A </strong> href="Currículo 1/Currículo linkedin.zip"download="Currículo linkedin.zip" type="application/zip"<strong>&gt;</strong>
+        </code>
+
+    </p>
+    
+</body>
+</html>
